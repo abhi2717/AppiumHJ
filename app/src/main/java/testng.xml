@@ -1,0 +1,33 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Sanity Suite" verbose="1" >
+<!--    <parameter name="excelLoc" value="C:\\Users\\ab.chauhan\\Downloads\\SanityTestCases.xlsx"/>
+    <parameter name="excelSheetLogin" value="Sheet 1"/>-->
+
+    <listeners>
+<!--
+  //      <listener class-name="org.uncommons.reportng.HTMLReporter"/>
+-->
+        <listener class-name="Listerners.AppiumListeners"/>
+    </listeners>
+
+    <test name="Example">
+<!--
+        <parameter name="excelLoc" value="C:\Users\ab.chauhan\Downloads\SanityTestCases.xlsx"/>
+        <parameter name="excelSheetLogin" value="Sheet2"/>
+
+-->
+        <classes>
+            <class name="Tests.LoginTest">
+                 <methods>
+                     <include name="loginOTP"/>
+                 </methods>
+            </class>
+
+            <class name="Tests.MyClaimsTest"></class>
+           <!-- <class name="Tests.MoreTest"></class>
+            <class name="Tests.MyPolicyTest"></class>
+            <class name="Tests.MyClaimsTest"></class>-->
+        </classes>
+    </test>
+</suite>
+

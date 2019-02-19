@@ -1,0 +1,68 @@
+package ObjectRepository;
+
+import org.openqa.selenium.By;
+
+public class MyClaimsObject {
+
+    public static By clickMyClaims = By.id("com.amhi.healthjinn:id/my_claims");
+    public static By scrollToBtn=By.xpath("//*[@class='android.widget.TextView']");
+    public static By titleTxt=By.id("com.amhi.healthjinn:id/policy_heading");
+    public static By clickNewClaimBtn=By.id("com.amhi.healthjinn:id/add_button");
+    public static By clickFileNewClaim=By.id("com.amhi.healthjinn:id/claim");
+    public static By selectDropDown=By.id("com.amhi.healthjinn:id/patient_spin");
+    //public static By selectDropDownValue=By.xpath("//*[@class='android.widget.TextView'][@text='Vijay Karanreddy Palkonda - 10000993426']");
+    public static By selectDropDownValue=By.xpath("//*[@class='android.widget.TextView']");
+    public static By clickClaimAmount=By.id("com.amhi.healthjinn:id/estimated_amount");
+    public static By clickSaveBtn=By.id("com.amhi.healthjinn:id/proceed");
+    public static By appTitle=By.id("com.amhi.healthjinn:id/app_title");
+    public static By clickDayCareCategory=By.xpath("//*[@class='android.widget.TextView'][@text='Daycare']");
+    public static By okBtnOnCalendar=By.id("android:id/button1");
+    public static By clickNxtBtn=By.xpath("//*[@class='android.widget.TextView'][@text='NEXT']");
+    public static By clickOkBtn2=By.xpath("//*[@class='android.widget.TextView'][@text='OK']");
+    public static By clickUploadBtn1=By.xpath("//*[@class='android.widget.TextView'][@text='Upload']");
+    //public static By clickUploadBtn2=By.xpath("//*[@class='android.widget.TextView'][@text='Cancelled Cheque of Proposer']");
+    public static By saveAndUploadLaterBtn=By.xpath("//*[@class='android.widget.TextView'][@text='SAVE AND UPLOAD LATER']");
+    public static By clickCamera=By.id("com.amhi.healthjinn:id/camera");
+    public static By clickDoneBtn=By.id("com.amhi.healthjinn:id/viewBtn");
+    public static By clickCaptureBtn=By.id("com.amhi.healthjinn:id/capture");
+    public static By clickSubmitBtn=By.id("com.amhi.healthjinn:id/submit");
+    public static By thankYouTxt=By.xpath("//*[@text='Thank You!']");
+    public static By txtOnFeedback=By.xpath("//*[@text='Was your last transaction hassle free?']");
+    public static By clickYes=By.xpath("//*[@class='android.widget.Button'][@text='Yes']");
+    public static By clickSubmit=By.xpath("//*[@class='android.widget.Button'][@text='SUBMIT']");
+    public static By txtFeebback=By.xpath("//*[@text='Thank you for your feedback!']");
+    public static By feedbackTitle=By.xpath("//*[@text='Feedback']");
+    public static By pleaseTxt=By.xpath("//*[@text='Please Note :']");
+    public static By confirmBtn=By.id("com.amhi.healthjinn:id/btnRight");
+    public static By clickView=By.xpath("//*[@class='android.widget.TextView'][@text='VIEW']");
+    public static By claimDetailsTxt=By.xpath("//*[@class='android.widget.TextView'][@text='Claim Details']");
+    public static By resumeBtnOnClaimsCard=By.id("com.amhi.healthjinn:id/viewText");
+    public static By claimCategory=By.id("com.amhi.healthjinn:id/category");
+    public static By estClaimAmount=By.id("com.amhi.healthjinn:id/estAmount");
+    public static By clickDayCare=By.id("com.amhi.healthjinn:id/daycare");
+    public static By clickHealthCheckUp=By.id("com.amhi.healthjinn:id/checkup");
+    public static By clickHospitalization=By.id("com.amhi.healthjinn:id/hospitalization");
+    public static By clickOPD=By.id("com.amhi.healthjinn:id/opd");
+    public static By hospitalName=By.id("com.amhi.healthjinn:id/hospital_name");
+    public static By dateOfTreatmentTxt=By.id("com.amhi.healthjinn:id/dateTitle");
+    public static By selectDate=By.id("com.amhi.healthjinn:id/date");
+    public static By scrollView=By.xpath("//*[@class ='android.widget.ScrollView']");
+    public static By districtField=By.xpath("//*[@class='android.widget.TextView'][@text='District (Optional)']");
+    public static By failedMsg=By.xpath("//*[@text='Something went wrong.']");
+    //public static By selectHospital=By.xpath("//*[@class='android.widget.ScrollView' and contains(text(),'HOSPITAL')]");
+    public static By hospitalNameTxt=By.xpath("//*[@class='android.widget.TextView'][@text='Hospital Name']");
+    public static By startDate=By.id("com.amhi.healthjinn:id/start_date");
+    public static By endDate=By.id("com.amhi.healthjinn:id/end_date");
+    public static By accidentTxt=By.id("com.amhi.healthjinn:id/accident");
+    public static By lastSynTxt=By.id("com.amhi.healthjinn:id/lastSync");
+    public static By continueBtn=By.xpath("//*[@text='CONTINUE']");
+    public static By popUpTxt=By.id("com.amhi.healthjinn:id/msg");
+   // public static By continueBtn=By.name("CONTINUE");
+    public static By updloadDocStatus=By.id("com.amhi.healthjinn:id/status");
+    public static By popUpPendingDoc=By.xpath("//*[contains(text(),'please wait until all documents get uploaded successfully.')]");
+    public static By popUpOnSaveAndUploadLater=By.id("com.amhi.healthjinn:id/msg");
+    public static By okBtnOnPopUpSaveAndUploadLater=By.xpath("//*[@class='android.widget.TextView'][@text='OK']");
+    public static By clickOKPendingDocPopUp=By.id("com.amhi.healthjinn:id/btnRight");
+    public static By clickPolicyNo=By.xpath("//*[@class='android.widget.TextView'][@text='1000089932-04']");
+    public static By clickSelectDropDown=By.id("com.amhi.healthjinn:id/policySpinner");
+}

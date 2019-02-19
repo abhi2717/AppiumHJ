@@ -1,0 +1,1 @@
+C:>java -cp "C:/Program Files (x86)/Jenkins/workspace/HealthJinn/app/libs/*;C:/Program Files (x86)/Jenkins/workspace/HealthJinn/app/src/main/java" org.testng.TestNG testng.xml
